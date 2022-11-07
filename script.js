@@ -10,6 +10,12 @@ btn.addEventListener("click", function (e) {
   // Basic Validation
   if (title.value == "" && author.value == "" && year.value == "") {
     alert("Please input your information.");
-  }
+  } else {
+    const newRow = document.createElement("tr");
+
+    // Creating new title
+    const newTitle = document.createElement("th");
+    newTitle.innerHTML = title.value;
+    newRow.appendChild(newTitle);
   }
 });
