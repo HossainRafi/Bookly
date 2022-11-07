@@ -17,5 +17,10 @@ btn.addEventListener("click", function (e) {
     const newTitle = document.createElement("th");
     newTitle.innerHTML = title.value;
     newRow.appendChild(newTitle);
+
+    // Creating new author
+    const newAuthor = document.createElement("th");
+    newAuthor.innerHTML = author.value;
+    newRow.appendChild(newAuthor);
   }
 });
