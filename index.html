@@ -24,21 +24,46 @@
     <form id="book-form" class="w-75 m-auto">
       <div class="form-group">
         <label for="title">Book Title :</label>
-        <input placeholder="Enter Book Title Here....." type="text" id="title" class="form-control" />
+        <input
+          placeholder="Enter Book Title Here....."
+          type="text"
+          id="title"
+          class="form-control"
+        />
       </div>
 
       <div class="form-group py-2">
         <label for="author">Author Name :</label>
-        <input placeholder="Enter Author Name Here....." type="text" id="author" class="form-control" />
+        <input
+          placeholder="Enter Author Name Here....."
+          type="text"
+          id="author"
+          class="form-control"
+        />
       </div>
 
       <div class="form-group pb-3">
         <label for="year">Publishing Year :</label>
-        <input placeholder="Enter Publishing Year Here....." type="text" id="year" class="form-control" />
+        <input
+          placeholder="Enter Publishing Year Here....."
+          type="text"
+          id="year"
+          class="form-control"
+        />
       </div>
       <input type="submit" value="Add Book" class="btn btn-primary btn-block" />
     </form>
     
+    <table class="table table-striped mt-5 text-center">
+      <thead>
+        <tr>
+          <th>Book Title</th>
+          <th>Author Name</th>
+          <th>Publishing Year</th>
+        </tr>
+      </thead>
+      <tbody id="book-list"></tbody>
+    </table>
 
     <script src="script.js"></script>
   </body>
