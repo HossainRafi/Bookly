@@ -9,7 +9,10 @@ btn.addEventListener("click", function (e) {
 
   // Basic Validation
   if (title.value == "" && author.value == "" && year.value == "") {
-    alert("Please input your information.");
+    Swal.fire({
+      icon: "error",
+      text: "Please input your information.....",
+    });
   } else {
     const newRow = document.createElement("tr");
 
