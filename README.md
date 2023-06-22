@@ -1,10 +1,6 @@
-## Project Name: [Bookly](https://jsbookly.netlify.app)
+# Project Name: [Bookly](https://jsbookly.netlify.app)
 
-## Project Live Link: [Bookly](https://jsbookly.netlify.app)
-
-## This is a JavaScript "Book Listing" application build with HTML, CSS & JavaSceipt
-
-### Technology Used:
+## Technologies:
 - HTML
 - Bootstrap
 - JavaScript
